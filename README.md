@@ -19,7 +19,7 @@ b2.list_buckets()
 ```
 work on this Bucket
 ```python
-BUCKET_NAME = "diramazioni-01"
+BUCKET_NAME = "test_bu-01"
 ```
 Upload a file
 ```python
