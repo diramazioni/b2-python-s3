@@ -7,12 +7,14 @@ clone the repo and install requirements
 !pip install -r requirements.txt
 ```
 
-**edit/copy your .env file**
-
+**edit/copy your .env file in b2 and verify it exists**
+```python
+%cd /content/b2
+!cat .env
+```
+Import and instanciate
 ```python
 from b2 import B2 
-```
-```python
 b2 = B2()
 ```
 list_buckets
