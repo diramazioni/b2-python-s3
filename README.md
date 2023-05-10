@@ -3,12 +3,10 @@
 clone the repo and install requirements
 ```python
 !git clone https://github.com/diramazioni/b2-python-s3 b2
+%cd b2
 !pip install -r requirements.txt
 ```
-```python
-import os
-os.chdir('b2')
-```
+
 **edit/copy your .env file**
 
 ```python
