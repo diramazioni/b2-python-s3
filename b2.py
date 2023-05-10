@@ -8,7 +8,8 @@ import os
 
 class B2:
     def __init__(self):
-        load_dotenv()
+        if not os.path.exists('/.dockerenv'): 
+            load_dotenv()
         self.endpoint = os.getenv("ENDPOINT_URL_YOUR_BUCKET")
         self.key_id = os.getenv("KEY_ID_YOUR_ACCOUNT")
         self.application_key = os.getenv("APPLICATION_KEY_YOUR_ACCOUNT")
